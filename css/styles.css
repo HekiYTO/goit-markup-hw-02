@@ -17,8 +17,10 @@ nav a, address  {
 }
 
 .logo {
-    
-font-family: Raleway;
+font-family: "Raleway", sans-serif;
+line-height: 1.17;
+text-transform: uppercase;
+color: #4d5ae5;
 font-size: 18px;
 font-weight: 700;
 line-height: 21px;
@@ -27,4 +29,8 @@ text-align: left;
 text-underline-position: from-font;
 text-decoration-skip-ink: none;
 
+}
+
+.logo .studio {
+    color: #2e2f42;
 }
