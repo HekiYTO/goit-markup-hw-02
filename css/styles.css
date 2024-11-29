@@ -1,122 +1,158 @@
-/* General styles */
+/* Общие стили */
 body {
-    color: #434455;
-    font-family: "Roboto", sans-serif;
-    background-color: #FFFFFF;
+    font-family: Arial, sans-serif;
     margin: 0;
-}
-
-/* Logo */
-.logo {
-    font-family: "Raleway", sans-serif;
-    line-height: 1.17;
-    text-transform: uppercase;
-    color: #4d5ae5;
-    font-size: 18px;
-    font-weight: 700;
-    letter-spacing: 0.03em;
-}
-
-.logo .studio {
-    color: #2e2f42;
-}
-
-/* Navigation */
-.nav-list {
-    list-style: none;
     padding: 0;
+    color: #333;
+}
+
+ul, li {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+
+a {
+    text-decoration: none;
+    color: inherit;
+}
+
+button {
+    border: none;
+    padding: 10px 15px;
+    background-color: #4d5ae5;
+    color: white;
+    cursor: pointer;
+}
+
+/* Шапка */
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px 40px;
+    background-color: #f4f4fd;
+}
+
+.logo {
+    font-weight: bold;
+    font-size: 18px;
+    color: #4d5ae5;
+}
+
+nav ul {
     display: flex;
     gap: 20px;
 }
 
 .nav-link {
-    font-weight: 500;
     font-size: 16px;
-    line-height: 1.5;
-    letter-spacing: 0.02em;
     color: #2e2f42;
-    text-decoration: none;
 }
 
-.nav-link:hover,
-.nav-link:focus {
-    color: #404bbf;
-}
-
-/* Address styles */
-.contact-info {
-    font-style: normal;
+.contact-info ul {
+    display: flex;
+    gap: 15px;
 }
 
 .contact-link {
     font-size: 16px;
-    line-height: 1.5;
-    letter-spacing: 0.02em;
     color: #434455;
-    text-decoration: none;
 }
 
-.contact-link:hover,
-.contact-link:focus {
-    color: #404bbf;
-}
-
-/* Hero Section */
-.hero {
+/* Главный экран */
+.hero-section {
     background-color: #2e2f42;
+    color: white;
     text-align: center;
-    padding: 50px 20px;
+    padding: 60px 20px;
 }
 
 .hero-title {
-    font-size: 56px;
-    line-height: 1.07;
-    letter-spacing: 0.02em;
-    color: #ffffff;
+    font-size: 36px;
     margin-bottom: 20px;
 }
 
-.btn-primary {
-    background-color: #4D5AE5;
-    font-family: "Roboto", sans-serif;
-    font-weight: 500;
+.hero-button {
     font-size: 16px;
-    line-height: 1.5;
-    letter-spacing: 0.04em;
-    color: #ffffff;
-    border: none;
-    padding: 10px 20px;
-    cursor: pointer;
 }
 
-.btn-primary:hover,
-.btn-primary:focus {
-    background-color: #404BBF;
-}
-
-/* Section Styles */
-.advantages {
-    background-color: #FFFFFF;
+/* Секция преимуществ */
+.advantages-section {
+    background-color: #f4f4fd;
     padding: 40px 20px;
 }
 
-.adv-title {
-    font-weight: 500;
+.section-title {
+    font-size: 28px;
+    text-align: center;
+    margin-bottom: 40px;
+}
+
+.advantages-section ul {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+    gap: 20px;
+    text-align: center;
+}
+
+.advantage-title {
     font-size: 20px;
-    line-height: 1.2;
-    color: #2e2f42;
+    font-weight: bold;
+    margin-bottom: 10px;
 }
 
-.adv-desc {
+.advantage-text {
     font-size: 16px;
-    line-height: 1.5;
-    color: #434455;
 }
 
-/* Team Section */
-.team {
-    background-color: #F4F4FD;
+/* Секция команды */
+.team-section {
     padding: 40px 20px;
 }
 
-/* Other Styles */
+.team-section ul {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(240px, 1fr));
+    gap: 20px;
+    text-align: center;
+}
+
+.team-member {
+    padding: 20px;
+    background-color: #fff;
+    border: 1px solid #e2e2e2;
+    border-radius: 8px;
+}
+
+.member-name {
+    font-size: 18px;
+    font-weight: bold;
+    margin-bottom: 5px;
+}
+
+.member-role {
+    font-size: 16px;
+    color: #666;
+}
+
+/* Подвал */
+footer {
+    padding: 20px;
+    background-color: #f4f4fd;
+    text-align: center;
+}
+
+.footer-logo {
+    font-size: 18px;
+    font-weight: bold;
+    margin-bottom: 10px;
+    color: #4d5ae5;
+}
+
+.footer-description {
+    font-size: 16px;
+    color: #434455;
+    max-width: 600px;
+    margin: 0 auto;
+}
