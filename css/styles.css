@@ -20,6 +20,11 @@ h1, h2, h3 {
     font-style: normal;
 }
 
+.paradvant {
+    line-height: 1.5 ;
+    letter-spacing: 0.02em ;
+}
+
 .mailto {
     line-height: 1.5;
     letter-spacing: 0.02em;
@@ -36,6 +41,14 @@ a:hover {
 
 a:focus {
     color: #404bbf;
+}
+
+.netitle {
+font-weight: 500 ;
+font-size: 20px ;
+line-height: 1. ;
+letter-spacing: 0.02em ;
+color: #2e2f42 ;
 }
 
 .logo {
