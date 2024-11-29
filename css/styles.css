@@ -2,6 +2,7 @@ body {
     color: #434455;
     font-family : "Roboto", sans-serif;
     background-color : #FFFFFF ;
+    line-height: 1.17;
 }
 
 h1, h2, h3 {
@@ -59,7 +60,7 @@ text-decoration-skip-ink: none;
     color: #2e2f42;
 }
 
-.logo .studio2 {
+.logo .studioo {
     color: #f4f4fd;
 }
 
