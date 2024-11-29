@@ -58,3 +58,25 @@ text-decoration-skip-ink: none;
 .logo .studio {
     color: #2e2f42;
 }
+
+.logo .studio2 {
+    color: #f4f4fd;
+}
+
+.footertext {
+color: #E7E9FC;
+font-family: Roboto;
+font-size: 16px;
+font-weight: 400;
+line-height: 24px;
+letter-spacing: 0.02em;
+text-align: left;
+text-underline-position: from-font;
+text-decoration-skip-ink: none;
+
+}
+
+
+footer {
+    background: #2E2F42;
+}
