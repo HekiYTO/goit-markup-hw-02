@@ -45,7 +45,6 @@ button {
     font-weight: 500;
     line-height: 24px;
     letter-spacing: 0.04em;
-    text-align: left;
 }
 
 /* Стилі заголовків */
@@ -65,7 +64,6 @@ button {
     font-weight: 400;
     line-height: 24px;
     letter-spacing: 0.02em;
-    text-align: left;
 }
 
 /* Footer */
@@ -125,7 +123,6 @@ footer {
 
 .third-section ul {
     list-style: none;
-    padding: 0;
 }
 
 .third-section li {
@@ -148,10 +145,6 @@ footer {
     color: #434455;
 }
 
-.third-section li img {
-    display: block;
-    margin: 0 auto;
-}
 
 /* Переваги */
 .netitle {
@@ -205,10 +198,6 @@ footer {
 /* Навігація */
 nav ul {
     list-style: none;
-}
-
-nav li {
-    margin-right: 20px;
 }
 
 .link_header {
