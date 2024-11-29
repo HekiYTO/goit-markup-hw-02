@@ -167,3 +167,60 @@ footer {
 .sectionone button:focus {
     background-color: #404BBF; 
 }
+
+
+.third-section {
+    background-color: #F4F4FD;
+    padding: 50px 20px;
+}
+
+.third-section .title {
+    font-size: 36px;
+    line-height: 1.11;
+    text-align: center;
+    letter-spacing: 0.02em;
+    text-transform: capitalize;
+    color: #2e2f42;
+    margin-bottom: 40px;
+}
+
+.third-section ul {
+    list-style: none;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+    padding: 0;
+    justify-content: center;
+}
+
+.third-section li {
+    background-color: #FFFFFF;
+    width: 360px;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1);
+    text-align: center;
+}
+
+.third-section li h3 {
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 1.2;
+    letter-spacing: 0.02em;
+    color: #2e2f42;
+    margin: 15px 0;
+}
+
+.third-section li p {
+    font-size: 16px;
+    line-height: 1.5;
+    letter-spacing: 0.02em;
+    color: #434455;
+    margin: 0;
+}
+
+.third-section li img {
+    width: 100%;
+    border-radius: 10px;
+}
+```
