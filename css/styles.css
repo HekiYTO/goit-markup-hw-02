@@ -88,20 +88,6 @@ text-decoration-skip-ink: none;
 
 }
 
-.title {
-color: #2E2F42;
-font-family: Roboto;
-font-size: 36px;
-font-weight: 700;
-line-height: 40px;
-letter-spacing: 0.02em;
-text-align: center;
-text-underline-position: from-font;
-text-decoration-skip-ink: none;
-
-
-}
-
 .footertext {
 color: #E7E9FC;
 font-family: Roboto;
@@ -211,6 +197,38 @@ footer {
 }
 
 .paradvant {
+    font-size: 16px;
+    line-height: 1.5;
+    letter-spacing: 0.02em;
+    color: #434455;
+}
+
+.team-section {
+    background-color: #F4F4FD;
+}
+
+.title {
+    font-size: 36px;
+    line-height: 1.11;
+    text-align: center;
+    letter-spacing: 0.02em;
+    text-transform: capitalize;
+    color: #2e2f42;
+}
+
+.team-member {
+    background-color: #FFFFFF;
+}
+
+.team-member-name {
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 1.2;
+    letter-spacing: 0.02em;
+    color: #2e2f42;
+}
+
+.team-member-role {
     font-size: 16px;
     line-height: 1.5;
     letter-spacing: 0.02em;
