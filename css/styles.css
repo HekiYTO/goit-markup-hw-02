@@ -9,9 +9,6 @@ h1, h2, h3 {
     font-family: "Raleway", sans-serif;
 }
 
-button {
-    cursor: pointer;
-}
 
 .link.header{
     font-weight: 500;
@@ -19,7 +16,7 @@ button {
     letter-spacing: 0.02em;
 }
 
-.address a {
+.address {
     font-style: normal;
 }
 
@@ -68,7 +65,8 @@ text-decoration-skip-ink: none;
     background-color: #2e2f42;
 }
 
-.button {
+button {
+cursor: pointer;
 font-family: Roboto;
 font-size: 16px;
 font-weight: 500;
