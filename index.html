@@ -1,135 +1,93 @@
-body {
-    color: #434455;
-    font-family: "Roboto", sans-serif;
-    background-color: #FFFFFF;
-}
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/modern-normalize/3.0.1/modern-normalize.min.css" 
+          integrity="sha512-q6WgHqiHlKyOqslT/lgBgodhd03Wp4BEqKeW6nNtlOY4quzyG3VoQKFrieaCeSnuVseNKRGpGeDU3qPmabCANg==" 
+          crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Raleway:ital,wght@0,100..900;1,100..900&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="./css/styles.css" />
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>WebStudio</title>
+</head>
+<body>
+<header>
+    <nav>
+        <a class="logo" href="./index.html">Web<span class="studio-name">Studio</span></a>
+        <ul>
+            <li><a class="nav-link" href="./index.html">Studio</a></li>
+            <li><a class="nav-link" href="#portfolio">Portfolio</a></li>
+            <li><a class="nav-link" href="#contacts">Contacts</a></li>
+        </ul>
+    </nav>
+    <address class="contact-info">
+        <ul>
+            <li><a class="contact-link" href="mailto:info@devstudio.com">info@devstudio.com</a></li>
+            <li><a class="contact-link" href="tel:+110001111111">+11 (000) 111-11-11</a></li>
+        </ul>
+    </address>
+</header>
 
-h1, h2, h3 {
-    font-family: "Raleway", sans-serif;
-}
+<main>
+    <section class="hero-section">
+        <h1 class="hero-title">Effective Solutions for Your Business</h1>
+        <button class="hero-button" type="button">Order Service</button>
+    </section>
 
-button {
-    cursor: pointer;
-}
+    <section class="advantages-section">
+        <h2 class="section-title">Our Advantages</h2>
+        <ul>
+            <li>
+                <h3 class="advantage-title">Strategy</h3>
+                <p class="advantage-text">Our goal is to identify the business problem to walk away with the perfect and creative solution.</p>
+            </li>
+            <li>
+                <h3 class="advantage-title">Punctuality</h3>
+                <p class="advantage-text">Bring the key message to the brand's audience for the best price within the shortest possible time.</p>
+            </li>
+            <li>
+                <h3 class="advantage-title">Diligence</h3>
+                <p class="advantage-text">Research and confirm brands that present the strongest digital growth opportunities and minimize risk.</p>
+            </li>
+            <li>
+                <h3 class="advantage-title">Technologies</h3>
+                <p class="advantage-text">Design practice focused on digital experiences. We bring forth a deep passion for problem-solving.</p>
+            </li>
+        </ul>
+    </section>
 
-.logo {
-    font-family: "Raleway", sans-serif;
-    line-height: 1.17;
-    text-transform: uppercase;
-    color: #4d5ae5;
-    font-size: 18px;
-    font-weight: 700;
-    letter-spacing: 0.03em;
-}
+    <section class="team-section">
+        <h2 class="section-title">Our Team</h2>
+        <ul>
+            <li class="team-member">
+                <img src="./images/Mark_Guerrero.jpg" alt="Mark Guerrero's photo" width="264">
+                <h3 class="member-name">Mark Guerrero</h3>
+                <p class="member-role">Product Designer</p>
+            </li>
+            <li class="team-member">
+                <img src="./images/Tom_Ford.jpg" alt="Tom Ford's photo" width="264">
+                <h3 class="member-name">Tom Ford</h3>
+                <p class="member-role">Frontend Developer</p>
+            </li>
+            <li class="team-member">
+                <img src="./images/Camila_Garcia.jpg" alt="Camila Garcia's photo" width="264">
+                <h3 class="member-name">Camila Garcia</h3>
+                <p class="member-role">Marketing</p>
+            </li>
+            <li class="team-member">
+                <img src="./images/Daniel_Wilson.jpg" alt="Daniel Wilson's photo" width="264">
+                <h3 class="member-name">Daniel Wilson</h3>
+                <p class="member-role">UI Designer</p>
+            </li>
+        </ul>
+    </section>
+</main>
 
-.logo .studio-name {
-    color: #2e2f42;
-}
-
-.nav-link {
-    font-weight: 500;
-    font-size: 16px;
-    line-height: 1.5;
-    letter-spacing: 0.02em;
-    color: #2e2f42;
-}
-
-.nav-link:hover,
-.nav-link:focus {
-    color: #404bbf;
-}
-
-.contact-info {
-    font-style: normal;
-}
-
-.contact-link {
-    font-size: 16px;
-    line-height: 1.5;
-    letter-spacing: 0.02em;
-    color: #434455;
-}
-
-.contact-link:hover,
-.contact-link:focus {
-    color: #404bbf;
-}
-
-.hero-section {
-    background-color: #2e2f42;
-}
-
-.hero-title {
-    font-size: 56px;
-    line-height: 1.07;
-    text-align: center;
-    letter-spacing: 0.02em;
-    color: #ffffff;
-}
-
-.hero-button {
-    background-color: #4D5AE5;
-    font-family: "Roboto", sans-serif;
-    font-weight: 500;
-    font-size: 16px;
-    line-height: 1.5;
-    letter-spacing: 0.04em;
-    color: #ffffff;
-    cursor: pointer;
-}
-
-.hero-button:hover,
-.hero-button:focus {
-    background-color: #404BBF;
-}
-
-.advantages-section {
-    background-color: #F4F4FD;
-}
-
-.advantage-title {
-    font-weight: 500;
-    font-size: 20px;
-    line-height: 1.2;
-    letter-spacing: 0.02em;
-    color: #2e2f42;
-}
-
-.advantage-text {
-    font-size: 16px;
-    line-height: 1.5;
-    letter-spacing: 0.02em;
-    color: #434455;
-}
-
-.team-member {
-    background-color: #FFFFFF;
-}
-
-.member-name {
-    font-weight: 500;
-    font-size: 20px;
-    line-height: 1.2;
-    letter-spacing: 0.02em;
-    color: #2e2f42;
-}
-
-.member-role {
-    font-size: 16px;
-    line-height: 1.5;
-    letter-spacing: 0.02em;
-    color: #434455;
-}
-
-.footer-logo {
-    font-size: 18px;
-    font-weight: 700;
-    color: #4d5ae5;
-}
-
-.footer-description {
-    font-size: 16px;
-    line-height: 1.5;
-    letter-spacing: 0.02em;
-    color: #434455;
-}
+<footer>
+    <a class="footer-logo" href="./index.html">WebStudio</a>
+    <p class="footer-description">Increase the flow of customers and sales for your business with digital marketing & growth solutions.</p>
+</footer>
+</body>
+</html>
