@@ -12,6 +12,13 @@ button {
     cursor: pointer;
 }
 
+.link.header{
+    font-weight: 500;
+    line-height: 1.5;
+    letter-spacing: 0.02em;
+}
+
+
 nav a, address  {
     color:#2E2F42 ;
 }
