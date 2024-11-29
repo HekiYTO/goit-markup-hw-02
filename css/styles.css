@@ -9,23 +9,6 @@ h1, h2, h3 {
     font-family: "Raleway", sans-serif;
 }
 
-
-.link.header{
-    font-weight: 500;
-    line-height: 1.5;
-    letter-spacing: 0.02em;
-}
-
-.address {
-    font-style: normal;
-}
-
-.mailto {
-    line-height: 1.5;
-    letter-spacing: 0.02em;
-    color: #434455;
-}
-
 nav a, address  {
     color:#2E2F42 ;
 }
@@ -233,4 +216,73 @@ footer {
     line-height: 1.5;
     letter-spacing: 0.02em;
     color: #434455;
+}
+
+.logo {
+    font-family: "Raleway", sans-serif;
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 1.17;
+    letter-spacing: 0.03em;
+    text-transform: uppercase;
+    color: #4d5ae5;
+}
+
+.studio {
+    color: #2e2f42;
+}
+
+nav ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    display: flex;
+}
+
+nav li {
+    margin-right: 20px;
+}
+
+.link_header {
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 1.5;
+    letter-spacing: 0.02em;
+    color: #2e2f42;
+    text-decoration: none;
+}
+
+.link_header:hover,
+.link_header:focus {
+    color: #404bbf;
+}
+
+.address {
+    font-style: normal;
+}
+
+.address ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+.address li {
+    margin-bottom: 10px;
+}
+
+.mailto,
+.tel {
+    font-size: 16px;
+    line-height: 1.5;
+    letter-spacing: 0.02em;
+    color: #434455;
+    text-decoration: none;
+}
+
+.mailto:hover,
+.mailto:focus,
+.tel:hover,
+.tel:focus {
+    color: #404bbf;
 }
