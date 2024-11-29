@@ -16,6 +16,14 @@ nav a, address  {
     color:#2E2F42 ;
 }
 
+a:hover {
+    color: #404bbf;
+}
+
+a:focus {
+    color: #404bbf;
+}
+
 .logo {
 font-family: "Raleway", sans-serif;
 line-height: 1.17;
