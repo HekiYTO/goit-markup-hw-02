@@ -18,6 +18,15 @@ button {
     letter-spacing: 0.02em;
 }
 
+.address a {
+    font-style: normal;
+}
+
+.mailto {
+    line-height: 1.5;
+    letter-spacing: 0.02em;
+    color: #434455;
+}
 
 nav a, address  {
     color:#2E2F42 ;
