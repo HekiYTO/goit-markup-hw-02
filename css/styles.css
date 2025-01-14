@@ -1,238 +1,75 @@
-/* Загальні стилі */
-body {
-    color: #434455;
-    font-family: "Roboto", sans-serif;
-    background-color: #FFFFFF;
-    line-height: 1.17;
+@import url('https://fonts.googleapis.com/css2?family=Raleway:ital,wght@0,100..900;1,100..900&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+
+h1, h2, h3, h4, h5, h6 {
+    font-family: "Raleway", serif;
+    letter-spacing: 0.02em;
+    line-height: 1.2
+    
 }
 
-h1, h2, h3 {
-    font-family: "Raleway", sans-serif;
+h2 {
+    text-align: center;
+    font-size: 36px;
 }
 
-nav a, address {
-    color: #2E2F42;
+h3 {
+    font-size: 20px;
 }
 
-a:hover, a:focus {
-    color: #404bbf;
-}
-
-/* Логотип */
-.logo {
-    font-family: "Raleway", sans-serif;
-    font-weight: 700;
-    font-size: 18px;
-    line-height: 1.17;
-    letter-spacing: 0.03em;
-    text-transform: uppercase;
-    color: #4d5ae5;
-}
-
-.logo .studio {
-    color: #2e2f42;
-}
-
-.logo .studioo {
-    color: #f4f4fd;
-}
-
-/* Кнопки */
-button {
-    cursor: pointer;
-    font-family: "Roboto", sans-serif;
+p {
     font-size: 16px;
+}
+
+a {
+    color: black;
+    font-family: "Roboto", serif;
     font-weight: 500;
-    line-height: 24px;
-    letter-spacing: 0.04em;
+    text-decoration: none;
 }
 
-/* Стилі заголовків */
-.titleone {
-    font-family: "Roboto", sans-serif;
-    font-size: 56px;
+.header {
+    background-color: #E7E9FC;
+}
+
+.logoheader {
     font-weight: 700;
-    line-height: 60px;
-    letter-spacing: 0.02em;
+    font-family: "Raleway", serif;
+    color: #4D5AE5;
+}
+
+.logoheader2 {
+    color: black;
+}
+
+ul {
+    list-style: none;
+    }
+
+p {
+        font-family: "Roboto", serif;
+        font-weight: 500;
+}
+
+.section1 {
+    background-color: #2E2F42;
+}
+
+.section1mtext {
     text-align: center;
+    color: white;
 }
 
-.footertext {
-    color: #F4F4FD;
-    font-family: "Roboto", sans-serif;
-    font-size: 16px;
-    font-weight: 400;
-    line-height: 24px;
-    letter-spacing: 0.02em;
-}
-
-/* Footer */
-footer {
-    background: #2E2F42;
-}
-
-/* Секція 1 */
-.sectionone {
-    background-color: #2e2f42;
-}
-
-.sectionone h1 {
-    font-size: 56px;
-    line-height: 1.07;
-    text-align: center;
-    letter-spacing: 0.02em;
-    color: #ffffff;
-}
-
-.sectionone button {
+.section1button {
+    border: none;
+    color: white;
     background-color: #4D5AE5;
-    font-family: "Roboto", sans-serif;
-    font-weight: 500;
-    font-size: 16px;
-    line-height: 1.5;
-    letter-spacing: 0.04em;
-    color: #ffffff;
 }
 
-.sectionone button:hover, .sectionone button:focus {
-    background-color: #404BBF;
-}
-
-/* Третя секція */
-.third-section {
+.section2 {
     background-color: #F4F4FD;
 }
 
-.title {
-    font-size: 36px;              
-    line-height: 1.11;             
-    text-align: center;            
-    letter-spacing: 0.02em;        
-    text-transform: capitalize;    
-    color: #2e2f42;                
+.footer {
+    color: white;
+    background-color: #2E2F42;
 }
-
-.third-section .title {
-    font-size: 36px;
-    line-height: 1.11;
-    text-align: center;
-    letter-spacing: 0.02em;
-    text-transform: capitalize;
-    color: #2e2f42;
-}
-
-.third-section ul {
-    list-style: none;
-}
-
-.third-section li {
-    background-color: #FFFFFF;
-    text-align: center;
-}
-
-.third-section li h3 {
-    font-weight: 500;
-    font-size: 20px;
-    line-height: 1.2;
-    letter-spacing: 0.02em;
-    color: #2e2f42;
-}
-
-.third-section li p {
-    font-size: 16px;
-    line-height: 1.5;
-    letter-spacing: 0.02em;
-    color: #434455;
-}
-
-
-/* Переваги */
-.netitle {
-    font-size: 36px;
-    line-height: 1.11;
-    text-align: center;
-    letter-spacing: 0.02em;
-    text-transform: capitalize;
-    color: #2e2f42;
-}
-
-.advantage-title {
-    font-weight: 500;
-    font-size: 20px;
-    line-height: 1.2;
-    letter-spacing: 0.02em;
-    color: #2e2f42;
-}
-
-.paradvant {
-    font-size: 16px;
-    line-height: 1.5;
-    letter-spacing: 0.02em;
-    color: #434455;
-}
-
-/* Команда */
-.team-section {
-    background-color: #F4F4FD;
-}
-
-.team-member {
-    background-color: #FFFFFF;
-}
-
-.team-member-name {
-    font-weight: 500;
-    font-size: 20px;
-    line-height: 1.2;
-    letter-spacing: 0.02em;
-    color: #2e2f42;
-}
-
-.team-member-role {
-    font-size: 16px;
-    line-height: 1.5;
-    letter-spacing: 0.02em;
-    color: #434455;
-}
-
-/* Навігація */
-nav ul {
-    list-style: none;
-}
-
-.link_header {
-    font-weight: 500;
-    font-size: 16px;
-    line-height: 1.5;
-    letter-spacing: 0.02em;
-    color: #2e2f42;
-    text-decoration: none;
-}
-
-.link_header:hover, .link_header:focus {
-    color: #404bbf;
-}
-
-/* Адреса */
-.address {
-    font-style: normal;
-}
-
-.address ul {
-    list-style: none;
-}
-
-.mailto, .tel {
-    font-size: 16px;
-    line-height: 1.5;
-    letter-spacing: 0.02em;
-    color: #434455;
-    text-decoration: none;
-}
-
-.mailto:hover, .mailto:focus,
-.tel:hover, .tel:focus {
-    color: #404bbf;
-}
-
-
